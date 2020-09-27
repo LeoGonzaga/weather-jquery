@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to right, #3b3b3b , #1a1612);
+
+
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: grey;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.input {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding-top: 10px;
+
+}
+.day {
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.hour {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 50px;
+  padding-right: 20px;
+
+}
+
+.weather {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.sun{
+  background-image: linear-gradient(to right, #FFA500 , #FF8C00);
+}
+
+.night{
+  background-image: linear-gradient(to right, #09163f , #21499e);
+}
